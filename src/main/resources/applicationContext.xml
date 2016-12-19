@@ -13,7 +13,7 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
     <!-- 自动扫描com.github包 ,将带有注解的类 纳入spring容器管理 -->
-    <context:component-scan base-package="com.github"/>
+    <context:component-scan base-package="com.lefu.letou"/>
     <context:property-placeholder location="classpath:redis.properties" /> 
 	<!-- 
     <bean id="freemarkerConfig"
